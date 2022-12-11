@@ -7,25 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE44550026B2EE630057D759 /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4454FF26B2EE630057D759 /* game.swift */; };
+		EE44550226B2F4CB0057D759 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44550126B2F4CB0057D759 /* enums.swift */; };
+		EE44550426B3334A0057D759 /* TiebreakerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE44550326B3334A0057D759 /* TiebreakerView.xib */; };
+		EE44550626B3365B0057D759 /* TiebreakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44550526B3365B0057D759 /* TiebreakerView.swift */; };
+		EE5F232E26B41E1200685DF8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5F232D26B41E1200685DF8 /* CloudKit.framework */; };
+		EE5F233126B4200300685DF8 /* cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F233026B4200300685DF8 /* cloud.swift */; };
+		EE5F233326B43D7700685DF8 /* games.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F233226B43D7700685DF8 /* games.swift */; };
 		EE87A1BC26AF85D9007A5C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A1BB26AF85D9007A5C82 /* AppDelegate.swift */; };
 		EE87A1BE26AF85D9007A5C82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A1BD26AF85D9007A5C82 /* SceneDelegate.swift */; };
-		EE87A1C026AF85D9007A5C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A1BF26AF85D9007A5C82 /* ViewController.swift */; };
 		EE87A1C326AF85D9007A5C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE87A1C126AF85D9007A5C82 /* Main.storyboard */; };
 		EE87A1C626AF85D9007A5C82 /* fabr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE87A1C426AF85D9007A5C82 /* fabr.xcdatamodeld */; };
 		EE87A1C826AF85DA007A5C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE87A1C726AF85DA007A5C82 /* Assets.xcassets */; };
 		EE87A1CB26AF85DA007A5C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE87A1C926AF85DA007A5C82 /* LaunchScreen.storyboard */; };
+		EE87A1D426AF8A3B007A5C82 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A1D326AF8A3B007A5C82 /* HomeViewController.swift */; };
+		EE87A1D626AF8A97007A5C82 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A1D526AF8A97007A5C82 /* GameViewController.swift */; };
+		EE87A1D926AF8CB4007A5C82 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A1D826AF8CB4007A5C82 /* CustomButton.swift */; };
+		EE87A1DB26AF8EF9007A5C82 /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE87A1DA26AF8EF9007A5C82 /* CustomButton.xib */; };
+		EE87A1DD26AFA973007A5C82 /* DisplayPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A1DC26AFA973007A5C82 /* DisplayPart.swift */; };
+		EE87A1DF26AFABAB007A5C82 /* Display.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE87A1DE26AFABAB007A5C82 /* Display.xib */; };
+		EE87A1E226AFB121007A5C82 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A1E126AFB121007A5C82 /* extensions.swift */; };
+		EE87A1E426AFB201007A5C82 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87A1E326AFB201007A5C82 /* DisplayView.swift */; };
+		EE92AB3226B09416006A0B0F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE92AB3126B09416006A0B0F /* GameKit.framework */; };
+		EE92AB3426B09BE8006A0B0F /* Scoreboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE92AB3326B09BE8006A0B0F /* Scoreboard.xib */; };
+		EE92AB3626B09CBD006A0B0F /* DisplayBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92AB3526B09CBD006A0B0F /* DisplayBackground.swift */; };
+		EE92AB3826B0A64E006A0B0F /* Scoreboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92AB3726B0A64E006A0B0F /* Scoreboard.swift */; };
+		EE92AB3B26B1870D006A0B0F /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92AB3A26B1870D006A0B0F /* question.swift */; };
+		EE92AB3D26B1C826006A0B0F /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92AB3C26B1C826006A0B0F /* functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE4454FF26B2EE630057D759 /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
+		EE44550126B2F4CB0057D759 /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		EE44550326B3334A0057D759 /* TiebreakerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TiebreakerView.xib; sourceTree = "<group>"; };
+		EE44550526B3365B0057D759 /* TiebreakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiebreakerView.swift; sourceTree = "<group>"; };
+		EE5F232C26B41E0800685DF8 /* fabr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fabr.entitlements; sourceTree = "<group>"; };
+		EE5F232D26B41E1200685DF8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		EE5F233026B4200300685DF8 /* cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloud.swift; sourceTree = "<group>"; };
+		EE5F233226B43D7700685DF8 /* games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = games.swift; sourceTree = "<group>"; };
 		EE87A1B826AF85D9007A5C82 /* fabr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fabr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE87A1BB26AF85D9007A5C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE87A1BD26AF85D9007A5C82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE87A1BF26AF85D9007A5C82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE87A1C226AF85D9007A5C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE87A1C526AF85D9007A5C82 /* fabr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fabr.xcdatamodel; sourceTree = "<group>"; };
 		EE87A1C726AF85DA007A5C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE87A1CA26AF85DA007A5C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE87A1CC26AF85DA007A5C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE87A1D326AF8A3B007A5C82 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EE87A1D526AF8A97007A5C82 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EE87A1D826AF8CB4007A5C82 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EE87A1DA26AF8EF9007A5C82 /* CustomButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
+		EE87A1DC26AFA973007A5C82 /* DisplayPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPart.swift; sourceTree = "<group>"; };
+		EE87A1DE26AFABAB007A5C82 /* Display.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Display.xib; sourceTree = "<group>"; };
+		EE87A1E126AFB121007A5C82 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		EE87A1E326AFB201007A5C82 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		EE92AB3126B09416006A0B0F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		EE92AB3326B09BE8006A0B0F /* Scoreboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Scoreboard.xib; sourceTree = "<group>"; };
+		EE92AB3526B09CBD006A0B0F /* DisplayBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayBackground.swift; sourceTree = "<group>"; };
+		EE92AB3726B0A64E006A0B0F /* Scoreboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scoreboard.swift; sourceTree = "<group>"; };
+		EE92AB3A26B1870D006A0B0F /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
+		EE92AB3C26B1C826006A0B0F /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +74,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE92AB3226B09416006A0B0F /* GameKit.framework in Frameworks */,
+				EE5F232E26B41E1200685DF8 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE5F232F26B41FF300685DF8 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F233026B4200300685DF8 /* cloud.swift */,
+				EE5F233226B43D7700685DF8 /* games.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
 		EE87A1AF26AF85D9007A5C82 = {
 			isa = PBXGroup;
 			children = (
 				EE87A1BA26AF85D9007A5C82 /* fabr */,
 				EE87A1B926AF85D9007A5C82 /* Products */,
+				EE92AB3026B09416006A0B0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +111,14 @@
 		EE87A1BA26AF85D9007A5C82 /* fabr */ = {
 			isa = PBXGroup;
 			children = (
+				EE5F232C26B41E0800685DF8 /* fabr.entitlements */,
+				EE5F232F26B41FF300685DF8 /* services */,
+				EE92AB3926B186FE006A0B0F /* models */,
+				EE87A1E026AFB114007A5C82 /* utils */,
+				EE87A1D726AF8C6F007A5C82 /* components */,
+				EE87A1D226AF8A20007A5C82 /* viewControllers */,
 				EE87A1BB26AF85D9007A5C82 /* AppDelegate.swift */,
 				EE87A1BD26AF85D9007A5C82 /* SceneDelegate.swift */,
-				EE87A1BF26AF85D9007A5C82 /* ViewController.swift */,
 				EE87A1C126AF85D9007A5C82 /* Main.storyboard */,
 				EE87A1C726AF85DA007A5C82 /* Assets.xcassets */,
 				EE87A1C926AF85DA007A5C82 /* LaunchScreen.storyboard */,
@@ -68,6 +126,60 @@
 				EE87A1C426AF85D9007A5C82 /* fabr.xcdatamodeld */,
 			);
 			path = fabr;
+			sourceTree = "<group>";
+		};
+		EE87A1D226AF8A20007A5C82 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE87A1D326AF8A3B007A5C82 /* HomeViewController.swift */,
+				EE87A1D526AF8A97007A5C82 /* GameViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		EE87A1D726AF8C6F007A5C82 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				EE87A1D826AF8CB4007A5C82 /* CustomButton.swift */,
+				EE87A1DA26AF8EF9007A5C82 /* CustomButton.xib */,
+				EE87A1DC26AFA973007A5C82 /* DisplayPart.swift */,
+				EE87A1E326AFB201007A5C82 /* DisplayView.swift */,
+				EE92AB3526B09CBD006A0B0F /* DisplayBackground.swift */,
+				EE87A1DE26AFABAB007A5C82 /* Display.xib */,
+				EE92AB3726B0A64E006A0B0F /* Scoreboard.swift */,
+				EE92AB3326B09BE8006A0B0F /* Scoreboard.xib */,
+				EE44550526B3365B0057D759 /* TiebreakerView.swift */,
+				EE44550326B3334A0057D759 /* TiebreakerView.xib */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		EE87A1E026AFB114007A5C82 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EE87A1E126AFB121007A5C82 /* extensions.swift */,
+				EE92AB3C26B1C826006A0B0F /* functions.swift */,
+				EE44550126B2F4CB0057D759 /* enums.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		EE92AB3026B09416006A0B0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F232D26B41E1200685DF8 /* CloudKit.framework */,
+				EE92AB3126B09416006A0B0F /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE92AB3926B186FE006A0B0F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EE92AB3A26B1870D006A0B0F /* question.swift */,
+				EE4454FF26B2EE630057D759 /* game.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE87A1DB26AF8EF9007A5C82 /* CustomButton.xib in Resources */,
 				EE87A1CB26AF85DA007A5C82 /* LaunchScreen.storyboard in Resources */,
 				EE87A1C826AF85DA007A5C82 /* Assets.xcassets in Resources */,
+				EE92AB3426B09BE8006A0B0F /* Scoreboard.xib in Resources */,
+				EE87A1DF26AFABAB007A5C82 /* Display.xib in Resources */,
+				EE44550426B3334A0057D759 /* TiebreakerView.xib in Resources */,
 				EE87A1C326AF85D9007A5C82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,9 +256,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE87A1E426AFB201007A5C82 /* DisplayView.swift in Sources */,
+				EE44550226B2F4CB0057D759 /* enums.swift in Sources */,
+				EE87A1D426AF8A3B007A5C82 /* HomeViewController.swift in Sources */,
+				EE5F233326B43D7700685DF8 /* games.swift in Sources */,
+				EE5F233126B4200300685DF8 /* cloud.swift in Sources */,
+				EE87A1DD26AFA973007A5C82 /* DisplayPart.swift in Sources */,
 				EE87A1C626AF85D9007A5C82 /* fabr.xcdatamodeld in Sources */,
-				EE87A1C026AF85D9007A5C82 /* ViewController.swift in Sources */,
+				EE92AB3D26B1C826006A0B0F /* functions.swift in Sources */,
+				EE44550026B2EE630057D759 /* game.swift in Sources */,
+				EE92AB3626B09CBD006A0B0F /* DisplayBackground.swift in Sources */,
+				EE44550626B3365B0057D759 /* TiebreakerView.swift in Sources */,
+				EE92AB3B26B1870D006A0B0F /* question.swift in Sources */,
+				EE87A1E226AFB121007A5C82 /* extensions.swift in Sources */,
+				EE87A1D926AF8CB4007A5C82 /* CustomButton.swift in Sources */,
 				EE87A1BC26AF85D9007A5C82 /* AppDelegate.swift in Sources */,
+				EE87A1D626AF8A97007A5C82 /* GameViewController.swift in Sources */,
+				EE92AB3826B0A64E006A0B0F /* Scoreboard.swift in Sources */,
 				EE87A1BE26AF85D9007A5C82 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,17 +420,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fabr/fabr.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = LP3UHZ556W;
 				INFOPLIST_FILE = fabr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phcs.fabr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,17 +442,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fabr/fabr.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = LP3UHZ556W;
 				INFOPLIST_FILE = fabr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phcs.fabr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
